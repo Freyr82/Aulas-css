@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    medidas relativas
+    em, ex, rem, vw, vh, %
+    geralmente 1em =  16px
+    */
+}
+h1 {
+    font: italic bolder 3em 'work sans', sans-serif;
+    /* font-style font-weight font-size font-family*/
+}
+

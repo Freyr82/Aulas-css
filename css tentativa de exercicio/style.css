@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: "android";
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: aquamarine;
+}
+
+main {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 55px;
+}
+
+header {
+    width: 1499px;
+    height: 150px;
+    background-image: linear-gradient(to right, mediumseagreen, rgb(54, 119, 83));
+    padding: 10px;
+    margin: -8px;
+} 
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #7ec7a2, #a6cdba4e, #d7d7d700);
+    width: 750px;
+    height: 30px;
+    padding: 5px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.android {
+    font-family: "android";
+    color: forestgreen;
+}
+
+#principal {
+    text-align: center;
+} 
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    margin: 1px; 
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 1px;
+    margin: 5px; 
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+.sexo {
+    display: block;
+    margin: auto;
+}
+
+.ft {
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style: disc;
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+}
+
+.item::before
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    background-image: url(Colebemis-Feather-Check.512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+}
+
+div {
+    background-color: rgb(126, 199, 162);
+    width: 700px;
+    height: 445px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.video {
+    background-color: darkgreen;
+    width: 800px;
+    height: 315px;
+    border-radius: 0%;
+    margin: -10px;
+}
+
+.separação {
+    background-color: rgba(255, 255, 255, 0);
+    width: 10px;
+    height: 20px;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mediumseagreen;
+    width: 705px;
+    height: 33px;
+    margin: -10px;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 15px;
+    padding-top: 12px;
+}
+
+footer {
+    background-color: green;
+    width: 1517px;
+    height: 21px;
+    padding: 1px;
+    margin: -8px;
+    text-align: center;
+}
+
+.bullets  {
+    list-style-image: url(Android-icon.png);
+}
